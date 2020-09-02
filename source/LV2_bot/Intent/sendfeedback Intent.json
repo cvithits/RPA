@@ -1,0 +1,107 @@
+{
+  "id": "ab979a84-99af-44b7-ae86-b8755c78b7b2",
+  "name": "sendfeedback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "feedback",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$feedback",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendfeedback ",
+          "userDefined": false
+        },
+        {
+          "text": "The service was super slow",
+          "userDefined": true,
+          "alias": "feedback",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "8a0b1d7b-3e1f-498c-8923-4f032ca8abea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendfeedback ",
+          "userDefined": false
+        },
+        {
+          "text": "I think your service need to be improved",
+          "userDefined": true,
+          "alias": "feedback",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "9751dd8c-ec9d-4cfd-a06f-a62e307d4e39",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendfeedback ",
+          "userDefined": false
+        },
+        {
+          "text": "The service was good",
+          "userDefined": true,
+          "alias": "feedback",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "ec631ec2-b2b8-4a2d-8bb1-f7350d59145c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,188 @@
+{
+  "id": "6c309aea-506a-4134-a375-d0cddf1e4c9e",
+  "name": "send email Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "email",
+          "dataType": "@sys.email",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please specify email"
+          ],
+          "value": "$email",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "info",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please specify reply message"
+          ],
+          "value": "$info",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendemail",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc3502e0-4669-4b9f-b097-0ed12cd6456a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendemail ",
+          "userDefined": false
+        },
+        {
+          "text": "abalahu@abc.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "0.2",
+          "userDefined": true,
+          "alias": "info",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "977fc6be-5066-4788-a47d-cfc28a5db26b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendemail ",
+          "userDefined": false
+        },
+        {
+          "text": "abc@hotmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "4545",
+          "userDefined": true,
+          "alias": "info",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "8091e489-5ae6-4219-9019-d71fee28cbca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendemail ",
+          "userDefined": false
+        },
+        {
+          "text": "chayuth@menervaco.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "7.33",
+          "userDefined": true,
+          "alias": "info",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "2b37e25a-43e6-4a29-b236-0ef43fa1a51f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendemail ",
+          "userDefined": false
+        },
+        {
+          "text": "vchayuth@gmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "30.245",
+          "userDefined": true,
+          "alias": "info",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "cc480db0-07e5-4e11-8a57-295e285b629f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

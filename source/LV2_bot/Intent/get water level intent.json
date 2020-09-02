@@ -1,0 +1,166 @@
+{
+  "id": "5e48f23e-934a-466c-be48-9c303fa5f324",
+  "name": "get water level intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "address",
+          "dataType": "@sys.address",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please specify the location"
+          ],
+          "value": "$address",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "email",
+          "dataType": "@sys.email",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please specify email"
+          ],
+          "value": "$email",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "chayuth@menervaco.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " ขอระดับน้ำ ",
+          "userDefined": false
+        },
+        {
+          "text": "pattaya",
+          "userDefined": true,
+          "alias": "address",
+          "meta": "@sys.address"
+        }
+      ],
+      "count": 0,
+      "id": "8a687e1c-41da-4383-bc94-28a9fd8c0e9d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vchayuth@gmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " get water level ",
+          "userDefined": false
+        },
+        {
+          "text": "พัทยา",
+          "userDefined": true,
+          "alias": "address",
+          "meta": "@sys.address"
+        }
+      ],
+      "count": 0,
+      "id": "09d5236c-8e10-4a98-bf01-6f05e5a4aaec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vchayuth@gmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": " get water level ",
+          "userDefined": false
+        },
+        {
+          "text": "pattaya",
+          "userDefined": true,
+          "alias": "address",
+          "meta": "@sys.address"
+        }
+      ],
+      "count": 0,
+      "id": "37bf0837-3298-4778-8967-64cc66a0954c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "v_chayuth@hotmail.com",
+          "userDefined": true,
+          "alias": "email",
+          "meta": "@sys.email"
+        },
+        {
+          "text": "  ขอระดับน้ำ ",
+          "userDefined": false
+        },
+        {
+          "text": "สัตหีบ",
+          "userDefined": true,
+          "alias": "address",
+          "meta": "@sys.address"
+        }
+      ],
+      "count": 0,
+      "id": "5decb01f-4f97-4b2e-9af1-f49290916f1e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
